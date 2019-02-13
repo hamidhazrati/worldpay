@@ -9,13 +9,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NavbarComponent } from './nav-bar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PlaceOrderService } from './services/place-order/place-order.service';
-import { AngularPaymentsModule } from './angular-payments-ts/src/angular-payments';
+import { AngularPaymentsModule } from './angular-payments-ts/src/angular-payments.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     CreditCardComponent,
-    NavbarComponent],
+    NavbarComponent
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
